@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2f2219">
+  <meta name="description" content="Muebles fabricados en Cartago: camas, roperos, comedores, cocinas y más. Seleccione lo que necesita y solicite información directamente por WhatsApp.">
+  <title>Fábrica de Muebles Los Ángeles | Cartago</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#catalogo">Ir al catálogo</a>
+
+  <header class="site-header" id="inicio">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Fábrica de Muebles Los Ángeles, inicio">
+        <img class="brand-logo" src="logo-muebles-los-angeles.webp" alt="Logo de Muebles Los Ángeles" width="800" height="800">
+        <span class="brand-copy">
+          <strong>Muebles Los Ángeles</strong>
+          <small>Fábrica · Cartago</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Abrir menú</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a class="nav-whatsapp whatsapp-link" data-message="Hola, visité su página web y deseo información sobre sus muebles." href="https://wa.me/50672144339">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-shell">
+        <div class="hero-content">
+          <img class="hero-logo" src="logo-muebles-los-angeles.webp" alt="Muebles Los Ángeles" width="800" height="800">
+          <p class="kicker">Fabricantes directos en Cartago</p>
+          <h1 id="hero-title">Muebles que hacen sentir hogar.</h1>
+          <p class="hero-lead">Diseños modernos, muebles a medida y ofertas permanentes. Consulte disponibilidad y reciba atención personalizada por WhatsApp.</p>
+          <div class="hero-actions">
+            <a class="button button-primary whatsapp-link" data-message="Hola, visité su página web y quiero cotizar un mueble." href="https://wa.me/50672144339">
+              Cotizar por WhatsApp
+            </a>
+            <a class="button button-light" href="#catalogo">Ver catálogo</a>
+          </div>
+          <ul class="hero-points" aria-label="Ventajas de compra">
+            <li>Entrega inmediata</li>
+            <li>Transporte disponible</li>
+            <li>Pago contra entrega</li>
+          </ul>
+        </div>
+        <figure class="hero-visual">
+          <img src="portada-tienda.webp" alt="Fábrica de Muebles Los Ángeles en Cartago Centro, de Rosti Pollos 100 metros al norte" width="1400" height="1400">
+        </figure>
+      </div>
+    </section>
+
+    <section class="service-strip" aria-label="Servicios destacados">
+      <div class="service-strip-inner">
+        <div><span class="mini-icon" aria-hidden="true">✦</span><p><strong>Fabricación propia</strong><small>Diseños a medida</small></p></div>
+        <div><span class="mini-icon" aria-hidden="true">⌂</span><p><strong>Visite la tienda</strong><small>Cartago Centro</small></p></div>
+        <div><span class="mini-icon" aria-hidden="true">✓</span><p><strong>Compra sencilla</strong><small>SINPE o efectivo</small></p></div>
+        <div><span class="mini-icon" aria-hidden="true">◇</span><p><strong>Apartado</strong><small>Sin intereses</small></p></div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="catalogo" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">Seleccione lo que necesita</p>
+          <h2 id="catalog-title">Prepare su solicitud</h2>
+        </div>
+        <p>Marque una o varias opciones. Al enviar, WhatsApp abrirá un mensaje con toda su selección.</p>
+      </div>
+
+      <form class="catalog-form" id="catalog-request">
+        <div class="selection-grid">
+          <fieldset class="selection-card">
+            <legend>
+              <span class="selection-title"><span class="product-icon bed-icon" aria-hidden="true"><span></span></span><span><small>Dormitorio</small><strong>Camas</strong></span></span>
+            </legend>
+            <p>Seleccione uno o varios tamaños o modelos.</p>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="product" value="Cama Individual" data-group="Camas"><span>Cama Individual</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Cama Matrimonial" data-group="Camas"><span>Cama Matrimonial</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Cama Queen" data-group="Camas"><span>Cama Queen</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Cama King" data-group="Camas"><span>Cama King</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Cama Nido" data-group="Camas"><span>Cama Nido</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Camarote Individual" data-group="Camas"><span>Camarote Individual</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Camarote Mixto" data-group="Camas"><span>Camarote Mixto</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="selection-card">
+            <legend>
+              <span class="selection-title"><span class="product-icon wardrobe-icon" aria-hidden="true"><span></span></span><span><small>Organización</small><strong>Roperos y clósets</strong></span></span>
+            </legend>
+            <p>Elija la capacidad que está buscando.</p>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="product" value="Ropero de 2 puertas" data-group="Roperos y clósets"><span>Ropero de 2 puertas</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Ropero de 3 puertas" data-group="Roperos y clósets"><span>Ropero de 3 puertas</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Ropero de 4 puertas" data-group="Roperos y clósets"><span>Ropero de 4 puertas</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Clóset" data-group="Roperos y clósets"><span>Clóset</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="selection-card">
+            <legend>
+              <span class="selection-title"><span class="product-icon counter-icon" aria-hidden="true"><span></span></span><span><small>Cocina y comedor</small><strong>Desayunadores</strong></span></span>
+            </legend>
+            <p>Seleccione la cantidad de puestos.</p>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="product" value="Desayunador de 4 puestos" data-group="Desayunadores"><span>Desayunador de 4 puestos</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Desayunador de 6 puestos" data-group="Desayunadores"><span>Desayunador de 6 puestos</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="selection-card">
+            <legend>
+              <span class="selection-title"><span class="product-icon table-icon" aria-hidden="true"><span></span></span><span><small>Cocina y comedor</small><strong>Comedores</strong></span></span>
+            </legend>
+            <p>Elija el tamaño del comedor.</p>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="product" value="Comedor de 4 sillas" data-group="Comedores"><span>Comedor de 4 sillas</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Comedor de 6 sillas" data-group="Comedores"><span>Comedor de 6 sillas</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="selection-card">
+            <legend>
+              <span class="selection-title"><span class="product-icon cabinet-icon" aria-hidden="true"><span></span></span><span><small>Almacenamiento</small><strong>Alacenas</strong></span></span>
+            </legend>
+            <p>Seleccione el tamaño que necesita.</p>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="product" value="Alacena pequeña" data-group="Alacenas"><span>Alacena pequeña</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Alacena mediana" data-group="Alacenas"><span>Alacena mediana</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Alacena grande" data-group="Alacenas"><span>Alacena grande</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Alacena a la medida" data-group="Alacenas"><span>Alacena a la medida</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="selection-card">
+            <legend>
+              <span class="selection-title"><span class="product-icon dresser-icon" aria-hidden="true"><span></span></span><span><small>Dormitorio</small><strong>Coquetas</strong></span></span>
+            </legend>
+            <p>Marque el tamaño que le interesa.</p>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="product" value="Coqueta pequeña" data-group="Coquetas"><span>Coqueta pequeña</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Coqueta mediana" data-group="Coquetas"><span>Coqueta mediana</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Coqueta grande" data-group="Coquetas"><span>Coqueta grande</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Coqueta a la medida" data-group="Coquetas"><span>Coqueta a la medida</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="selection-card">
+            <legend>
+              <span class="selection-title"><span class="product-icon kitchen-icon" aria-hidden="true"><span></span></span><span><small>Cocina</small><strong>Muebles de cocina</strong></span></span>
+            </legend>
+            <p>Seleccione una o varias opciones.</p>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="product" value="Mueble de cocina" data-group="Muebles de cocina"><span>Mueble de cocina</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Mueble para fregadero" data-group="Muebles de cocina"><span>Mueble para fregadero</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Mueble aéreo" data-group="Muebles de cocina"><span>Mueble aéreo</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Otro mueble de cocina" data-group="Muebles de cocina"><span>Otro mueble de cocina</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="selection-card">
+            <legend>
+              <span class="selection-title"><span class="product-icon storage-icon" aria-hidden="true"><span></span></span><span><small>Dormitorio</small><strong>Cómodas y gaveteros</strong></span></span>
+            </legend>
+            <p>Elija el mueble de organización.</p>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="product" value="Cómoda sencilla" data-group="Cómodas y gaveteros"><span>Cómoda sencilla</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Cómoda doble" data-group="Cómodas y gaveteros"><span>Cómoda doble</span></label>
+              <label class="choice"><input type="checkbox" name="product" value="Gavetero" data-group="Cómodas y gaveteros"><span>Gavetero</span></label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="request-panel">
+          <div>
+            <strong>Su selección</strong>
+            <span id="selection-count">0 opciones seleccionadas</span>
+          </div>
+          <button class="button button-primary" type="submit">Enviar solicitud por WhatsApp</button>
+          <p class="form-status" id="catalog-status" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </section>
+
+    <section class="custom-section" id="servicios" aria-labelledby="custom-title">
+      <div class="custom-copy">
+        <img class="section-logo" src="logo-muebles-los-angeles.webp" alt="" width="800" height="800" aria-hidden="true">
+        <p class="kicker">Fabricamos a la medida</p>
+        <h2 id="custom-title">Cuéntenos qué mueble necesita</h2>
+        <p>Describa el tipo de mueble, sus medidas aproximadas y cualquier detalle importante. Prepararemos el mensaje para enviarlo directamente por WhatsApp.</p>
+      </div>
+      <form class="custom-form-card" id="custom-request">
+        <label class="form-field" for="custom-type">
+          <span>Tipo de mueble</span>
+          <textarea id="custom-type" name="custom-type" rows="3" placeholder="Ejemplo: escritorio, clóset, mueble para pantalla…" required></textarea>
+        </label>
+        <label class="form-field" for="custom-measures">
+          <span>Medidas aproximadas</span>
+          <input id="custom-measures" name="custom-measures" type="text" placeholder="Ejemplo: 180 cm de alto × 120 cm de ancho" required>
+        </label>
+        <label class="form-field" for="custom-details">
+          <span>Detalles adicionales <small>(opcional)</small></span>
+          <textarea id="custom-details" name="custom-details" rows="3" placeholder="Color, distribución, cantidad de puertas, gavetas u otros detalles"></textarea>
+        </label>
+        <button class="button button-primary" type="submit">Enviar solicitud por WhatsApp</button>
+        <p class="form-status custom-status" id="custom-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="about-section" id="nosotros" aria-labelledby="about-title">
+      <div class="about-card">
+        <p class="kicker">Fábrica y tienda física</p>
+        <h2 id="about-title">Calidad, Diseño y Durabilidad para tu hogar</h2>
+        <p>En Muebles Los Ángeles fabricamos soluciones para dormitorios, salas, comedores y cocinas. Le atendemos de forma directa para que pueda consultar, elegir y coordinar su compra con confianza.</p>
+      </div>
+      <div class="payment-card">
+        <p class="kicker">Opciones de compra</p>
+        <ul>
+          <li><span>✓</span> SINPE Móvil</li>
+          <li><span>✓</span> Efectivo</li>
+          <li><span>✓</span> Cancela contra entrega</li>
+          <li><span>✓</span> Apartado sin intereses</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="location-section" id="ubicacion" aria-labelledby="location-title">
+      <div>
+        <p class="kicker">Visítenos</p>
+        <h2 id="location-title">Estamos en Cartago Centro</h2>
+        <address>De Rosti Pollos, 100 metros al norte, local esquinero.</address>
+      </div>
+      <div class="location-actions">
+        <a class="button button-dark" href="https://www.google.com/maps/search/?api=1&amp;query=Cartago+Centro+de+Rosti+Pollos+100+metros+al+norte+local+esquinero" target="_blank" rel="noopener noreferrer">Cómo llegar</a>
+        <a class="button button-primary whatsapp-link" data-message="Hola, deseo confirmar la ubicación y visitar la tienda de Cartago Centro." href="https://wa.me/50672144339">Confirmar por WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img class="footer-logo" src="logo-muebles-los-angeles.webp" alt="Logo de Muebles Los Ángeles" width="800" height="800">
+      <div><strong>Fábrica de Muebles Los Ángeles</strong><p>Calidad, Diseño y Durabilidad para tu hogar</p></div>
+    </div>
+    <div class="footer-contact">
+      <p>Cartago Centro, Costa Rica</p>
+      <a class="whatsapp-link" data-message="Hola, visité su página web y deseo información." href="https://wa.me/50672144339">WhatsApp: 7214-4339</a>
+    </div>
+    <div class="footer-credits">
+      <p class="copyright">© <span id="year"></span> Muebles Los Ángeles Cartago.</p>
+      <p class="site-credit">Elaborada por Francisco Monzón Pineda - 62661641</p>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp whatsapp-link" data-message="Hola, visité su página web y deseo información sobre sus muebles." href="https://wa.me/50672144339" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1c-1-.4-1.8-.9-2.5-1.5-.7-.7-1.3-1.4-1.8-2.3-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6s-.7-1.8-1-2.4c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.9 5.2.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.1-.4-.2-.7-.4Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
